@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/twitter-sentiment-analysis-app/static/css/main.e740dd76.css",
+    "main.js": "/twitter-sentiment-analysis-app/static/js/main.3a9c390e.js",
+    "static/js/787.3f25da4b.chunk.js": "/twitter-sentiment-analysis-app/static/js/787.3f25da4b.chunk.js",
+    "index.html": "/twitter-sentiment-analysis-app/index.html",
+    "main.e740dd76.css.map": "/twitter-sentiment-analysis-app/static/css/main.e740dd76.css.map",
+    "main.3a9c390e.js.map": "/twitter-sentiment-analysis-app/static/js/main.3a9c390e.js.map",
+    "787.3f25da4b.chunk.js.map": "/twitter-sentiment-analysis-app/static/js/787.3f25da4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e740dd76.css",
+    "static/js/main.3a9c390e.js"
+  ]
+}
