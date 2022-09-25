@@ -87,7 +87,7 @@ def connect_to_endpoint_tweet(url, params):
         )
     return response.json()
 
-def main(usernames="elonmusk"):
+def main(usernames="BU_tweets"):
     usernames = "usernames=" + usernames
     user_ids = getUserID(usernames)
     urls = create_url_tweets(user_ids)
@@ -102,7 +102,10 @@ def main(usernames="elonmusk"):
 
 if __name__ == "__main__":
     # print(sys.argv)
-    if len(sys.argv) == 1:
-        main()
-    else:
-        main(sys.argv[1])
+    try:
+        if len(sys.argv) == 1:
+            main()
+        else:
+            main(sys.argv[1])
+    except:
+        print("Username not found")
